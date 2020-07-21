@@ -1,0 +1,167 @@
+Virtual User Script started at: 03-06-2020 12:07:02
+Starting action vuser_init.
+Virtual user uses Upload: 5120000 bps, Download 5120000 bps network bandwidth
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (Aug 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows; en) AppleWebKit/ (KHTML, like Gecko) Chrome/36.0.1985.125  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\LoadRunner 201\SC01_WebTours_UserRegistration_URL_Mode\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Notify: Download : 5120000 bps, Upload : 5120000 bps network bandwidth.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action User_Registration.
+User_Registration.c(3): web_set_sockets_option started  	[MsgId: MMSG-26355]
+User_Registration.c(3): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+User_Registration.c(5): Notify: Parameter Substitution: parameter "pIterationNumber" =  "1"
+User_Registration.c(5): Iteration Number: 1
+User_Registration.c(7): web_reg_find started  	[MsgId: MMSG-26355]
+User_Registration.c(7): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+User_Registration.c(11): Notify: Transaction "SC01_WebTours_T01_LaunchPage" started.
+User_Registration.c(13): web_url("WebTours") started  	[MsgId: MMSG-26355]
+User_Registration.c(13): Notify: Parameter Substitution: parameter "pServerName" =  "127.0.0.1"
+User_Registration.c(13): Notify: Parameter Substitution: parameter "pPortNo" =  "1080"
+User_Registration.c(13): Registered web_reg_find successful for "Text=Web Tours" (count=1)  	[MsgId: MMSG-26364]
+User_Registration.c(13): Notify: Saving Parameter "WebTours_Count = 1".
+User_Registration.c(13): web_url("WebTours") was successful, 366 body bytes, 298 header bytes  	[MsgId: MMSG-26386]
+User_Registration.c(22): web_concurrent_start started  	[MsgId: MMSG-26355]
+User_Registration.c(22): web_concurrent_start was successful  	[MsgId: MMSG-26392]
+User_Registration.c(24): web_reg_find started  	[MsgId: MMSG-26355]
+User_Registration.c(24): Notify: Saving Parameter "Header_Text_Count = 0".
+User_Registration.c(24): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+User_Registration.c(28): web_url("header.html") started  	[MsgId: MMSG-26355]
+User_Registration.c(28): Notify: Parameter Substitution: parameter "pServerName" =  "127.0.0.1"
+User_Registration.c(28): Notify: Parameter Substitution: parameter "pPortNo" =  "1080"
+User_Registration.c(28): Notify: Parameter Substitution: parameter "pServerName" =  "127.0.0.1"
+User_Registration.c(28): Notify: Parameter Substitution: parameter "pPortNo" =  "1080"
+User_Registration.c(28): Registering web_url("header.html") was successful  	[MsgId: MMSG-26390]
+User_Registration.c(37): web_reg_find started  	[MsgId: MMSG-26355]
+User_Registration.c(37): Notify: Saving Parameter "Frame_Welcome_Count = 0".
+User_Registration.c(37): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+User_Registration.c(41): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+User_Registration.c(41): Notify: Parameter Substitution: parameter "pServerName" =  "127.0.0.1"
+User_Registration.c(41): Notify: Parameter Substitution: parameter "pPortNo" =  "1080"
+User_Registration.c(41): Notify: Parameter Substitution: parameter "pServerName" =  "127.0.0.1"
+User_Registration.c(41): Notify: Parameter Substitution: parameter "pPortNo" =  "1080"
+User_Registration.c(41): Registering web_url("welcome.pl") was successful  	[MsgId: MMSG-26390]
+User_Registration.c(50): web_concurrent_end started  	[MsgId: MMSG-26355]
+User_Registration.c(50): Registered web_reg_find successful for "Text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" (count=1)  	[MsgId: MMSG-26364]
+User_Registration.c(50): Notify: Saving Parameter "Header_Text_Count = 1".
+User_Registration.c(50): Registered web_reg_find successful for "Text=<frame src="nav.pl?in=home" name="navbar"" (count=1)  	[MsgId: MMSG-26364]
+User_Registration.c(50): Notify: Saving Parameter "Frame_Welcome_Count = 1".
+User_Registration.c(50): web_concurrent_end was successful, 1396 body bytes, 625 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+User_Registration.c(52): web_concurrent_start started  	[MsgId: MMSG-26355]
+User_Registration.c(52): web_concurrent_start was successful  	[MsgId: MMSG-26392]
+User_Registration.c(54): web_url("hp_logo.png") started  	[MsgId: MMSG-26355]
+User_Registration.c(54): Notify: Parameter Substitution: parameter "pServerName" =  "127.0.0.1"
+User_Registration.c(54): Notify: Parameter Substitution: parameter "pPortNo" =  "1080"
+User_Registration.c(54): Notify: Parameter Substitution: parameter "pServerName" =  "127.0.0.1"
+User_Registration.c(54): Notify: Parameter Substitution: parameter "pPortNo" =  "1080"
+User_Registration.c(54): Registering web_url("hp_logo.png") was successful  	[MsgId: MMSG-26390]
+User_Registration.c(62): web_url("webtours.png") started  	[MsgId: MMSG-26355]
+User_Registration.c(62): Notify: Parameter Substitution: parameter "pServerName" =  "127.0.0.1"
+User_Registration.c(62): Notify: Parameter Substitution: parameter "pPortNo" =  "1080"
+User_Registration.c(62): Notify: Parameter Substitution: parameter "pServerName" =  "127.0.0.1"
+User_Registration.c(62): Notify: Parameter Substitution: parameter "pPortNo" =  "1080"
+User_Registration.c(62): Registering web_url("webtours.png") was successful  	[MsgId: MMSG-26390]
+User_Registration.c(70): web_concurrent_end started  	[MsgId: MMSG-26355]
+User_Registration.c(70): web_concurrent_end was successful, 4788 body bytes, 596 header bytes  	[MsgId: MMSG-26386]
+User_Registration.c(72): web_concurrent_start started  	[MsgId: MMSG-26355]
+User_Registration.c(72): web_concurrent_start was successful  	[MsgId: MMSG-26392]
+User_Registration.c(74): web_reg_find started  	[MsgId: MMSG-26355]
+User_Registration.c(74): Notify: Saving Parameter "Information_Message_Count = 0".
+User_Registration.c(74): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+User_Registration.c(78): web_url("home.html") started  	[MsgId: MMSG-26355]
+User_Registration.c(78): Notify: Parameter Substitution: parameter "pServerName" =  "127.0.0.1"
+User_Registration.c(78): Notify: Parameter Substitution: parameter "pPortNo" =  "1080"
+User_Registration.c(78): Notify: Parameter Substitution: parameter "pServerName" =  "127.0.0.1"
+User_Registration.c(78): Notify: Parameter Substitution: parameter "pPortNo" =  "1080"
+User_Registration.c(78): Registering web_url("home.html") was successful  	[MsgId: MMSG-26390]
+User_Registration.c(87): web_reg_find started  	[MsgId: MMSG-26355]
+User_Registration.c(87): Notify: Saving Parameter "Login_Frame_Count = 0".
+User_Registration.c(87): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+User_Registration.c(91): web_url("nav.pl") started  	[MsgId: MMSG-26355]
+User_Registration.c(91): Notify: Parameter Substitution: parameter "pServerName" =  "127.0.0.1"
+User_Registration.c(91): Notify: Parameter Substitution: parameter "pPortNo" =  "1080"
+User_Registration.c(91): Notify: Parameter Substitution: parameter "pServerName" =  "127.0.0.1"
+User_Registration.c(91): Notify: Parameter Substitution: parameter "pPortNo" =  "1080"
+User_Registration.c(91): Registering web_url("nav.pl") was successful  	[MsgId: MMSG-26390]
+User_Registration.c(100): web_concurrent_end started  	[MsgId: MMSG-26355]
+User_Registration.c(100): Registered web_reg_find successful for "Text=To make reservations,please enter your account information to the left." (count=1)  	[MsgId: MMSG-26364]
+User_Registration.c(100): Notify: Saving Parameter "Information_Message_Count = 1".
+User_Registration.c(100): Registered web_reg_find successful for "Text=&nbsp;Password" (count=1)  	[MsgId: MMSG-26364]
+User_Registration.c(100): Notify: Saving Parameter "Login_Frame_Count = 1".
+User_Registration.c(100): web_concurrent_end was successful, 2846 body bytes, 553 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+User_Registration.c(102): web_url("mer_login.gif") started  	[MsgId: MMSG-26355]
+User_Registration.c(102): Notify: Parameter Substitution: parameter "pServerName" =  "127.0.0.1"
+User_Registration.c(102): Notify: Parameter Substitution: parameter "pPortNo" =  "1080"
+User_Registration.c(102): Notify: Parameter Substitution: parameter "pServerName" =  "127.0.0.1"
+User_Registration.c(102): Notify: Parameter Substitution: parameter "pPortNo" =  "1080"
+User_Registration.c(102): web_url("mer_login.gif") was successful, 679 body bytes, 297 header bytes  	[MsgId: MMSG-26386]
+User_Registration.c(110): Notify: Parameter Substitution: parameter "WebTours_Count" =  "1"
+User_Registration.c(112): Notify: Transaction "SC01_WebTours_T01_LaunchPage" ended with a "Pass" status (Duration: 0.6789 Wasted Time: 0.2246).
+User_Registration.c(120): lr_think_time: 10.00 seconds.
+User_Registration.c(122): Rendezvous Landing_Page_Rend
+User_Registration.c(124): web_reg_find started  	[MsgId: MMSG-26355]
+User_Registration.c(124): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+User_Registration.c(128): Notify: Transaction "SC01_WebTours_T02_ClickSignUp" started.
+User_Registration.c(130): web_url("sign up now") started  	[MsgId: MMSG-26355]
+User_Registration.c(130): Notify: Parameter Substitution: parameter "pServerName" =  "127.0.0.1"
+User_Registration.c(130): Notify: Parameter Substitution: parameter "pPortNo" =  "1080"
+User_Registration.c(130): Notify: Parameter Substitution: parameter "pServerName" =  "127.0.0.1"
+User_Registration.c(130): Notify: Parameter Substitution: parameter "pPortNo" =  "1080"
+User_Registration.c(130): Registered web_reg_find successful for "Text=Customer Profile" (count=1)  	[MsgId: MMSG-26364]
+User_Registration.c(130): Notify: Saving Parameter "CustomerProfile_Count = 1".
+User_Registration.c(130): web_url("sign up now") was successful, 2429 body bytes, 229 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+User_Registration.c(139): web_concurrent_start started  	[MsgId: MMSG-26355]
+User_Registration.c(139): web_concurrent_start was successful  	[MsgId: MMSG-26392]
+User_Registration.c(141): web_reg_find started  	[MsgId: MMSG-26355]
+User_Registration.c(141): Notify: Saving Parameter "Profile_Validation_Count = 0".
+User_Registration.c(141): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+User_Registration.c(145): web_url("profileValidate.js") started  	[MsgId: MMSG-26355]
+User_Registration.c(145): Notify: Parameter Substitution: parameter "pServerName" =  "127.0.0.1"
+User_Registration.c(145): Notify: Parameter Substitution: parameter "pPortNo" =  "1080"
+User_Registration.c(145): Notify: Parameter Substitution: parameter "pServerName" =  "127.0.0.1"
+User_Registration.c(145): Notify: Parameter Substitution: parameter "pPortNo" =  "1080"
+User_Registration.c(145): Registering web_url("profileValidate.js") was successful  	[MsgId: MMSG-26390]
+User_Registration.c(153): web_url("button_next.gif") started  	[MsgId: MMSG-26355]
+User_Registration.c(153): Notify: Parameter Substitution: parameter "pServerName" =  "127.0.0.1"
+User_Registration.c(153): Notify: Parameter Substitution: parameter "pPortNo" =  "1080"
+User_Registration.c(153): Notify: Parameter Substitution: parameter "pServerName" =  "127.0.0.1"
+User_Registration.c(153): Notify: Parameter Substitution: parameter "pPortNo" =  "1080"
+User_Registration.c(153): Registering web_url("button_next.gif") was successful  	[MsgId: MMSG-26390]
+User_Registration.c(161): web_concurrent_end started  	[MsgId: MMSG-26355]
+User_Registration.c(161): Registered web_reg_find successful for "Text=var allAtOnce = true;" (count=1)  	[MsgId: MMSG-26364]
+User_Registration.c(161): Notify: Saving Parameter "Profile_Validation_Count = 1".
+User_Registration.c(161): web_concurrent_end was successful, 12046 body bytes, 611 header bytes  	[MsgId: MMSG-26386]
+User_Registration.c(163): Notify: Parameter Substitution: parameter "CustomerProfile_Count" =  "1"
+User_Registration.c(165): Notify: Transaction "SC01_WebTours_T02_ClickSignUp" ended with a "Pass" status (Duration: 0.1800 Wasted Time: 0.0105).
+User_Registration.c(173): lr_think_time: 10.00 seconds.
+User_Registration.c(175): web_reg_find started  	[MsgId: MMSG-26355]
+User_Registration.c(175): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+User_Registration.c(179): Notify: Transaction "SC01_WebTours_T03_ClickContinue" started.
+User_Registration.c(181): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+User_Registration.c(181): Notify: Parameter Substitution: parameter "pServerName" =  "127.0.0.1"
+User_Registration.c(181): Notify: Parameter Substitution: parameter "pPortNo" =  "1080"
+User_Registration.c(181): Notify: Parameter Substitution: parameter "pServerName" =  "127.0.0.1"
+User_Registration.c(181): Notify: Parameter Substitution: parameter "pPortNo" =  "1080"
+User_Registration.c(181): Notify: Parameter Substitution: parameter "pUsername" =  "sp421"
+User_Registration.c(181): Notify: Next row for parameter pPassword = 1 [table  = pPassword].
+User_Registration.c(181): Notify: Parameter Substitution: parameter "pPassword" =  "sipusipu"
+User_Registration.c(181): Notify: Next row for parameter pPassword = 1 [table  = pPassword].
+User_Registration.c(181): Notify: Parameter Substitution: parameter "pPassword" =  "sipusipu"
+User_Registration.c(181): Notify: Parameter Substitution: parameter "pFirstName" =  "Vikash"
+User_Registration.c(181): Notify: Parameter Substitution: parameter "pLastName" =  "Pattnaik"
+User_Registration.c(181): Notify: Parameter Substitution: parameter "pAddress1" =  "Unit-5"
+User_Registration.c(181): Notify: Parameter Substitution: parameter "pAddress2" =  "Kolkata"
+User_Registration.c(181): Registered web_reg_find successful for "Text=Thank you, " (count=1)  	[MsgId: MMSG-26364]
+User_Registration.c(181): Notify: Saving Parameter "Thankyou_Count = 1".
+User_Registration.c(181): web_submit_data("login.pl") was successful, 1078 body bytes, 374 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+User_Registration.c(200): Notify: Parameter Substitution: parameter "Thankyou_Count" =  "1"
+User_Registration.c(202): Notify: Transaction "SC01_WebTours_T03_ClickContinue" ended with a "Pass" status (Duration: 0.1582 Wasted Time: 0.0057).
+Ending action User_Registration.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

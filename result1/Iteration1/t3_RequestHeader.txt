@@ -1,0 +1,7 @@
+GET /cgi-bin/welcome.pl?signOff=true HTTP/1.1
+Referer: http://127.0.0.1:1080/WebTours/
+User-Agent: Mozilla/5.0 (Windows; en) AppleWebKit/ (KHTML, like Gecko) Chrome/36.0.1985.125
+Accept: */*
+Connection: Keep-Alive
+Host: 127.0.0.1:1080
+

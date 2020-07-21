@@ -1,0 +1,71 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=SC01_WebTours_UserRegistration.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=60
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.60.0.971
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=12.53.0.1203
+DisableRegenerate=0
+Description=
+ScriptLocale=en-IN
+Encoding=
+[Actions]
+vuser_init=vuser_init.c
+User_Registration=User_Registration.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+User_Registration=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+User_Registration=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+User_Registration=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+User_Registration=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="SC01_WebTours_T01_LaunchPage__*delimiter*__SC01_WebTours_T02_ClickSignUp__*delimiter*__SC01_WebTours_T03_ClickContinue"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+SC01_WebTours_T01_LaunchPage=
+SC01_WebTours_T02_ClickSignUp=
+SC01_WebTours_T03_ClickContinue=
+[Rendezvous]
+Landing_Page_Rend=
+[ParameterSimulation]
+NumVusers=10
+IsDurationIndefinite=0
+NumIterationsUntilCompletion=5
+IterationFromRTS=0
+NumIterationIndefinitely=1
